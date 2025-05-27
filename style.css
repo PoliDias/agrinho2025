@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #fffbec;
+    color: #333;
+  }
+  
+  h1, h2 {
+    font-family: 'Fredoka', sans-serif;
+    color: #1b5e20;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  header {
+    background-image: url(unnamed.gif);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  .logo {
+    width: 200px;
+    margin-bottom: 15px;
+   background-color: #43a047;
+  }
+  
+  nav {
+    margin-top: 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  nav a:hover {
+    background: #2e7d32;
+  }
+  
+  .btn {
+    background: #ffeb3b;
+    color: #333;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .btn.big {
+    padding: 12px 30px;
+    font-size: 1.1em;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .hero {
+    background: url('https://images.unsplash.com/photo-1600369671587-df65d4cfc65a') center/cover no-repeat;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    background-color: #fffbec;
+  }
+  
+  .highlight.light {
+    background-color: #fffbe6;
+  }
+  
+  .gallery .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+  }
+  
+  footer {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+  }
+  .lista {
+    list-style: none;
+    padding: 0;
+    max-width: 700px;
+    margin: 20px auto;
+    text-align: left;
+  }
+  
+  .lista li {
+    background: #e8f5e9;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    border-left: 5px solid #66bb6a;
+    border-radius: 5px;
+    font-size: 1.1em;
+  }
